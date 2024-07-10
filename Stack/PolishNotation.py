@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def evalRPN(self, tokens: List[str]) -> int:
         # push every item until operator, if operator apply to top 2 then remove top 2 and push result
